@@ -1,0 +1,5 @@
+verschiedene rocks, vor allem kleinere
+verschiedene schwierigkeitsstufen
+neue sounds und asserts (selbermachen)
+
+offline mode
