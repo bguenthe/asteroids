@@ -1,7 +1,7 @@
 import math
 import random
 
-import simpleguitk as simplegui
+import SimpleGUICS2Pygame.simpleguics2pygame as simplegui
 
 
 class ImageInfo:
@@ -110,8 +110,10 @@ class Sprite:
 
         self.explode_time = 24
         if sound:
+            print("Sound")
             sound.rewind()
             sound.play()
+            print("Sound play")
 
     def draw(self, canvas):
         if self.bexplode:
